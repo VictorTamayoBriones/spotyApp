@@ -14,6 +14,7 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { ROUTES } from './app.routes';
 import { NoimagePipe } from './pipes/noimage.pipe';
 import { TarjetaComponent } from './components/tarjeta/tarjeta.component';
+import { LoadingComponent } from './components/shared/loading/loading.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { TarjetaComponent } from './components/tarjeta/tarjeta.component';
     ArtistaComponent,
     NavbarComponent,
     NoimagePipe,
-    TarjetaComponent
+    TarjetaComponent,
+    LoadingComponent
   ],
   imports: [
     BrowserModule,
